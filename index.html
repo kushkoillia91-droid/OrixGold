@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>OrixGold</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0f0f0f;
+      color: #fff;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px 40px;
+      background: #111;
+      border-bottom: 1px solid #333;
+    }
+
+    header h1 {
+      color: gold;
+    }
+
+    .btn {
+      background: gold;
+      color: black;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 100px 20px;
+    }
+
+    .hero h2 {
+      font-size: 40px;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 40px;
+    }
+
+    .card {
+      background: #1a1a1a;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      border-top: 1px solid #333;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>OrixGold</h1>
+  <button class="btn">Купити</button>
+</header>
+
+<section class="hero">
+  <h2>Продаж ігрового золота</h2>
+  <p>Швидко. Надійно. Вигідно.</p>
+  <button class="btn">Почати</button>
+</section>
+
+<section class="products">
+  <div class="card">
+    <h3>WoW Gold</h3>
+    <p>Найкращі ціни</p>
+    <button class="btn">Купити</button>
+  </div>
+
+  <div class="card">
+    <h3>Dota 2</h3>
+    <p>Миттєва доставка</p>
+    <button class="btn">Купити</button>
+  </div>
+
+  <div class="card">
+    <h3>CS2</h3>
+    <p>Безпечні угоди</p>
+    <button class="btn">Купити</button>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 OrixGold</p>
+</footer>
+
+</body>
+</html>
